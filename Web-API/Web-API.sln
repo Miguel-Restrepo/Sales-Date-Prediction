@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{073ADEC3-76F8-4EE6-A6F9-177F65B9D9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{5E6A906A-13B9-4A79-9481-1712EFABD857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{073ADEC3-76F8-4EE6-A6F9-177F65B9D9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073ADEC3-76F8-4EE6-A6F9-177F65B9D9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073ADEC3-76F8-4EE6-A6F9-177F65B9D9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073ADEC3-76F8-4EE6-A6F9-177F65B9D9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6A906A-13B9-4A79-9481-1712EFABD857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6A906A-13B9-4A79-9481-1712EFABD857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6A906A-13B9-4A79-9481-1712EFABD857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6A906A-13B9-4A79-9481-1712EFABD857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {240852FC-107F-42E2-AE78-379C642EA690}
+	EndGlobalSection
+EndGlobal

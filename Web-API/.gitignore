@@ -1,0 +1,46 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+*.tmp
+*.swp
+*.suo
+*.pidb
+*.svd
+*.sqlite
+*.db
+*.pdb
+
+# Azure Pipelines
+.azp/
+
+# Local IDE files
+.vscode/

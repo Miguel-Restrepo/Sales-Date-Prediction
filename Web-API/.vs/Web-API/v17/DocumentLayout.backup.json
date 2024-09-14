@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{073ADEC3-76F8-4EE6-A6F9-177F65B9D9B4}|API\\API.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\api\\controllers\\customcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073ADEC3-76F8-4EE6-A6F9-177F65B9D9B4}|API\\API.csproj|solutionrelative:api\\controllers\\customcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\business\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|solutionrelative:business\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\business\\services\\imp\\customservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|solutionrelative:business\\services\\imp\\customservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}|DataAccess\\DataAccess.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\dataaccess\\repositories\\imp\\customrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\imp\\customrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\business\\services\\imp\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|solutionrelative:business\\services\\imp\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\business\\services\\imp\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|solutionrelative:business\\services\\imp\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\business\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|solutionrelative:business\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\business\\dtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|solutionrelative:business\\dtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}|DataAccess\\DataAccess.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\dataaccess\\data\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073ADEC3-76F8-4EE6-A6F9-177F65B9D9B4}|API\\API.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073ADEC3-76F8-4EE6-A6F9-177F65B9D9B4}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}|DataAccess\\DataAccess.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\dataaccess\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}|DataAccess\\DataAccess.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\dataaccess\\models\\customerorderprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E97646D-0ABF-4F17-9360-965A1C3B2DD0}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\customerorderprediction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\business\\dtos\\shipperdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|solutionrelative:business\\dtos\\shipperdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|c:\\users\\usuario\\documents\\pruebas tecnicas\\nserio\\web-api\\business\\dtos\\customerorderpredictiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E6A906A-13B9-4A79-9481-1712EFABD857}|Business\\Business.csproj|solutionrelative:business\\dtos\\customerorderpredictiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Dtos\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "Business\\Dtos\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Dtos\\CustomerDto.cs",
+              "RelativeToolTip": "Business\\Dtos\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T03:21:59.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\DataAccess\\Repositories\\Imp\\CustomRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\Imp\\CustomRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\DataAccess\\Repositories\\Imp\\CustomRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\Imp\\CustomRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T03:19:05.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Dtos\\OrderDetailDto.cs",
+              "RelativeDocumentMoniker": "Business\\Dtos\\OrderDetailDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Dtos\\OrderDetailDto.cs",
+              "RelativeToolTip": "Business\\Dtos\\OrderDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T03:01:35.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Services\\Imp\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Imp\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Services\\Imp\\CustomerService.cs",
+              "RelativeToolTip": "Business\\Services\\Imp\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:33:10.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Services\\Imp\\CustomService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Imp\\CustomService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Services\\Imp\\CustomService.cs",
+              "RelativeToolTip": "Business\\Services\\Imp\\CustomService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAMwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:33:04.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\DataAccess\\Data\\StoreContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Data\\StoreContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\DataAccess\\Data\\StoreContext.cs",
+              "RelativeToolTip": "DataAccess\\Data\\StoreContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:27:34.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Services\\IService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\IService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Services\\IService.cs",
+              "RelativeToolTip": "Business\\Services\\IService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:32:05.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerOrderPrediction.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\DataAccess\\Models\\CustomerOrderPrediction.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\CustomerOrderPrediction.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\DataAccess\\Models\\CustomerOrderPrediction.cs",
+              "RelativeToolTip": "DataAccess\\Models\\CustomerOrderPrediction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:26:17.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\API\\Controllers\\CustomController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\CustomController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\API\\Controllers\\CustomController.cs",
+              "RelativeToolTip": "API\\Controllers\\CustomController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:43:02.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Services\\Imp\\OrderService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\Imp\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Services\\Imp\\OrderService.cs",
+              "RelativeToolTip": "Business\\Services\\Imp\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T03:10:41.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:27:28.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\DataAccess\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\DataAccess\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:40:55.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShipperDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Dtos\\ShipperDto.cs",
+              "RelativeDocumentMoniker": "Business\\Dtos\\ShipperDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Dtos\\ShipperDto.cs",
+              "RelativeToolTip": "Business\\Dtos\\ShipperDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:31:51.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerOrderPredictionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Dtos\\CustomerOrderPredictionDto.cs",
+              "RelativeDocumentMoniker": "Business\\Dtos\\CustomerOrderPredictionDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Pruebas tecnicas\\nserio\\Web-API\\Business\\Dtos\\CustomerOrderPredictionDto.cs",
+              "RelativeToolTip": "Business\\Dtos\\CustomerOrderPredictionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T02:19:25.3Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
