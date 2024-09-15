@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gráfico de Barras Horizontal con D3.js</title>
+  <link rel="stylesheet" src="styles/style.css">
+</head>
+
+<body>
+
+  <h1>Gráfico de Barras Horizontal con D3.js</h1>
+
+  <div id="input-container">
+    <label for="sourceData">Source Data:</label>
+    <input type="text" id="sourceData" placeholder="Ej: 10, 20, 30, 40, 50">
+    <button id="updateData" onclick="handleUpdateData()">Update Data</button>
+  </div>
+
+  <p class="error" id="errorMessage"></p>
+
+  <div id="chart"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
