@@ -1,0 +1,18 @@
+.custom-toolbar {
+  background-color: black; 
+  color: white; 
+}
+
+.custom-toolbar .title {
+  color: white; 
+}
+
+.custom-toolbar .logo {
+  height: 40px; 
+  width: auto; 
+  margin-left: 16px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

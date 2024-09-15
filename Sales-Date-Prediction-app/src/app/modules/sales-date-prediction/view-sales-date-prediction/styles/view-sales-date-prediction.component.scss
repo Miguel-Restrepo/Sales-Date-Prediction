@@ -1,0 +1,41 @@
+.table-container {
+  margin: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-actions {
+  display: flex;
+  justify-content: space-between;
+}
+.green-button {
+  color: green !important;
+}
+
+.red-button {
+  color: red !important;
+}
+.header-container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+mat-form-field {
+  margin: 0;
+  width: 100%;
+}
+
+

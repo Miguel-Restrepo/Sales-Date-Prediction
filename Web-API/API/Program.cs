@@ -17,6 +17,16 @@ builder.Services.AddDbContext<StoreContext>(options =>
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policyBuilder =>
+        {
+            policyBuilder.AllowAnyOrigin()
+                         .AllowAnyMethod()
+                         .AllowAnyHeader();
+        });
+});
 
 // AutoMapper
 builder.Services.AddSingleton(provider =>
@@ -52,7 +62,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors("AllowAll");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

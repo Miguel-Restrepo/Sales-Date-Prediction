@@ -4,6 +4,7 @@
     using Business.Services;
     using Business.Services.Imp;
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.EntityFrameworkCore;
 
 
     [Route("api/[controller]")]
@@ -18,9 +19,11 @@
         }
 
         [HttpGet("GetSalesDatePrediction")]
-        public async Task<IActionResult> GetSalesDatePrediction()
+        public async Task<IActionResult> GetSalesDatePrediction([FromQuery] string? customerName)
         {
             var customers = await this.customerService.GetSalesDatePrediction();
+            if(customerName != null && customerName != "")
+                customers = customers.Where(s => s.CompanyName.Contains(customerName)).ToList();
             return Ok(customers);
         }
 

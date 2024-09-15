@@ -1,0 +1,57 @@
+.table-container {
+  margin: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-actions {
+  display: flex;
+  justify-content: space-between;
+}
+mat-form-field {
+  margin: 0;
+  width: 100%;
+}
+.custom-view-toolbar {
+  background-color: green; 
+  color: white; 
+}
+
+.custom-view-toolbar .title {
+  color: white; 
+}
+
+.green-button {
+  color: green!important;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+:host {
+  display: block;
+  max-width: 100%; 
+  max-height: 100%;
+  overflow: auto;   
+}
+
+.modal-content {
+  padding: 20px; 
+}
+.form-container {
+  display: flex;
+  gap: 16px; 
+}
+
+mat-form-field {
+  flex: 1; 
+}

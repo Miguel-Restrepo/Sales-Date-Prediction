@@ -1,1 +1,48 @@
-<p>view-order works!</p>
+<mat-dialog-content class="dialog-content">
+
+  <mat-toolbar class="custom-view-toolbar">
+    <span class="title">Customer {{name}} - Orders</span>
+  </mat-toolbar>
+  <div class="shadowed-box">
+    <div class="container">
+      <mat-table [dataSource]="dataSource" matSort (matSortChange)="announceSortChange($event)">
+        <ng-container matColumnDef="orderId">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Order ID</mat-header-cell>
+          <mat-cell *matCellDef="let order">{{ order.orderId }}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="requiredDate">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Required Date</mat-header-cell>
+          <mat-cell *matCellDef="let order">{{ order.requiredDate }}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="shippedDate">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Shipped Date</mat-header-cell>
+          <mat-cell *matCellDef="let order">{{ order.shippedDate }}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="shipName">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Ship Name</mat-header-cell>
+          <mat-cell *matCellDef="let order">{{ order.shipName }}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="shipAddress">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Ship Address</mat-header-cell>
+          <mat-cell *matCellDef="let order">{{ order.shipAddress }}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="shipCity">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>Ship City</mat-header-cell>
+          <mat-cell *matCellDef="let order">{{ order.shipCity }}</mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+      </mat-table>
+    </div>
+    <mat-paginator [pageSize]="7" [pageSizeOptions]="[3, 5, 7]"></mat-paginator>
+  </div>
+</mat-dialog-content>
+<div mat-dialog-actions class="dialog-actions">
+  <button mat-button color="accent" class="red-button" (click)="closed()">CLOSE</button>
+</div>

@@ -38,7 +38,7 @@
             SELECT 
                 c.[companyname],
                 MAX(o.[orderdate]) AS LastOrderDate,
-                DATEADD(DAY, AVG(oi.[DaysBetweenOrders]), MAX(o.[orderdate])) AS NextPredictedOrder
+                DATEADD(DAY, AVG(oi.[DaysBetweenOrders]), MAX(o.[orderdate])) AS NextPredictedOrder, o.[custid]
             FROM 
                 [Sales].[Customers] c
             JOIN 

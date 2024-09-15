@@ -1,0 +1,49 @@
+.table-container {
+  margin: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-actions {
+  display: flex;
+  justify-content: space-between;
+}
+mat-form-field {
+  margin: 0;
+  width: 100%;
+}
+.custom-view-toolbar {
+  background-color: rgb(216, 15, 15); 
+  color: white; 
+}
+
+.custom-view-toolbar .title {
+  color: white; 
+}
+
+.red-button {
+  color: red !important;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+:host {
+  display: block;
+  max-width: 100%;  // Evita que el contenido se extienda fuera del modal
+  max-height: 100%; // Evita que el contenido se extienda fuera del modal
+  overflow: auto;   // Habilita el scroll si el contenido es demasiado grande
+}
+
+.modal-content {
+  padding: 20px; // Ajusta el relleno según sea necesario
+}

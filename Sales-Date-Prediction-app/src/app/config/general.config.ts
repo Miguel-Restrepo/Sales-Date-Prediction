@@ -1,3 +1,3 @@
 export namespace GeneralConfig {
-  export const BACKEND_URL = 'https://localhost:7220';
+  export const BACKEND_URL = 'https://localhost:7220/api/';
 }
