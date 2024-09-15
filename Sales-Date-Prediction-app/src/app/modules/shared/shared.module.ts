@@ -1,24 +1,32 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CustomService } from '../../services';
-import { HTTP_INTERCEPTORS, HttpClient, provideHttpClient, withFetch } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClient, provideHttpClient, withFetch, withInterceptors } from '@angular/common/http';
 import { BACKEND_URL } from '../../injection-tokens';
 import { GeneralConfig } from '../../config/general.config';
 import { LoadInterceptor } from '../../interceptor';
+import { SpinnerComponent } from './spinner/spinner.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [SpinnerComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    MatProgressSpinnerModule
   ],
   providers: [
     CustomService,
     HttpClient,
     { provide: BACKEND_URL, useValue: GeneralConfig.BACKEND_URL },
-    { provide: HTTP_INTERCEPTORS, useClass: LoadInterceptor, multi: true },
-    provideHttpClient(withFetch())
+    provideHttpClient(
+      withFetch(),
+      withInterceptors([LoadInterceptor])
+    ),
   ],
+  exports: [
+    SpinnerComponent
+  ]
 })
 export class SharedModule { }

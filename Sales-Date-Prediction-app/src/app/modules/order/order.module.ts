@@ -12,7 +12,7 @@ import { SharedModule } from '../shared/shared.module';
 import { CreateOrderComponent } from './create-order/create-order.component';
 import { OrderRoutingModule } from './order-routing.module';
 import { ViewOrderComponent } from './view-order/view-order.component';
-import { HTTP_INTERCEPTORS, HttpClient, provideHttpClient, withFetch } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClient, provideHttpClient, withFetch, withInterceptors } from '@angular/common/http';
 import { BACKEND_URL } from '../../injection-tokens';
 import { GeneralConfig } from '../../config/general.config';
 import { LoadInterceptor } from '../../interceptor';
@@ -43,6 +43,11 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     MatNativeDateModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    provideHttpClient(
+      withFetch(),
+      withInterceptors([LoadInterceptor])
+    ),
+  ],
 })
 export class OrderModule { }

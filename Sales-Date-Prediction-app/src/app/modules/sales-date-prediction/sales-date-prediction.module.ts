@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { HTTP_INTERCEPTORS, HttpClient } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClient, provideHttpClient, withFetch, withInterceptors } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
@@ -38,6 +38,10 @@ import { OrderModule } from '../order/order.module';
   exports: [
   ],
   providers: [
+    provideHttpClient(
+      withFetch(),
+      withInterceptors([LoadInterceptor])
+    ),
   ],
 })
 export class SalesDatePredictionModule { }
