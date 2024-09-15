@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { BACKEND_URL } from '../../injection-tokens';
-import { CustomerOrderPrediction, Order } from '../../models';
+import { CreateOrder, CustomerOrderPrediction, Order } from '../../models';
 
 @Injectable({
   providedIn: 'root',
@@ -34,4 +34,12 @@ export class CustomService {
         headers: new HttpHeaders()
       });
   }
+
+  public createOrder(request: CreateOrder) {
+    return this.http.post(`${this.urlBack}${this.urlService}CreateOrder`, request,
+      {
+        headers: new HttpHeaders()
+      });
+  }
+
 }

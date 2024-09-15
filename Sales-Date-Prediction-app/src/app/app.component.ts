@@ -1,9 +1,8 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './master-page/header/header.component';
 import { FooterComponent } from './master-page/footer/footer.component';
-import { SpinnerComponent } from './modules/shared/spinner/spinner.component';
+import { HeaderComponent } from './master-page/header/header.component';
 import { SharedModule } from './modules/shared/shared.module';
 
 @Component({

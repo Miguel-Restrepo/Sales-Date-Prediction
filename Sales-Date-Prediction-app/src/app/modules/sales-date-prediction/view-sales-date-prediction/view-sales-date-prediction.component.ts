@@ -5,9 +5,9 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort, Sort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { CustomerOrderPrediction, Order } from '../../../models';
+import { CustomService } from '../../../services';
 import { CreateOrderComponent } from '../../order/create-order/create-order.component';
 import { ViewOrderComponent } from '../../order/view-order/view-order.component';
-import { CustomService } from '../../../services';
 
 
 @Component({

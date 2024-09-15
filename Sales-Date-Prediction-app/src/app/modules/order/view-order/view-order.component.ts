@@ -1,11 +1,10 @@
 import { LiveAnnouncer } from '@angular/cdk/a11y';
 import { Component, Inject, inject, ViewChild } from '@angular/core';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort, Sort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { Order } from '../../../models';
-import { CustomService } from '../../../services';
 import { CreateOrderComponent } from '../create-order/create-order.component';
 
 @Component({
@@ -48,7 +47,6 @@ export class ViewOrderComponent {
   ngAfterViewInit() {
     this.reloadDataSource();
   }
-
 
   public closed(): void {
     this.dialogRef.close();

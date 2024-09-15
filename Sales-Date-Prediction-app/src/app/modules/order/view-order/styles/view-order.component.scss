@@ -39,11 +39,11 @@ mat-form-field {
 
 :host {
   display: block;
-  max-width: 100%;  // Evita que el contenido se extienda fuera del modal
-  max-height: 100%; // Evita que el contenido se extienda fuera del modal
-  overflow: auto;   // Habilita el scroll si el contenido es demasiado grande
+  max-width: 100%; 
+  max-height: 100%;
+  overflow: auto; 
 }
 
 .modal-content {
-  padding: 20px; // Ajusta el relleno según sea necesario
+  padding: 20px; 
 }

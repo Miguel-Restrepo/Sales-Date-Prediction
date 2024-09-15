@@ -1,14 +1,12 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CustomService } from '../../services';
-import { HTTP_INTERCEPTORS, HttpClient, provideHttpClient, withFetch, withInterceptors } from '@angular/common/http';
-import { BACKEND_URL } from '../../injection-tokens';
-import { GeneralConfig } from '../../config/general.config';
-import { LoadInterceptor } from '../../interceptor';
-import { SpinnerComponent } from './spinner/spinner.component';
+import { HttpClient, provideHttpClient, withFetch, withInterceptors } from '@angular/common/http';
+import { NgModule } from '@angular/core';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-
-
+import { GeneralConfig } from '../../config/general.config';
+import { BACKEND_URL } from '../../injection-tokens';
+import { LoadInterceptor } from '../../interceptor';
+import { CustomService, EmployeeService, ProductService, ShipperService } from '../../services';
+import { SpinnerComponent } from './spinner/spinner.component';
 
 @NgModule({
   declarations: [SpinnerComponent],
@@ -18,6 +16,9 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
   ],
   providers: [
     CustomService,
+    EmployeeService,
+    ProductService,
+    ShipperService,
     HttpClient,
     { provide: BACKEND_URL, useValue: GeneralConfig.BACKEND_URL },
     provideHttpClient(
